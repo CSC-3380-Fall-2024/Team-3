@@ -27,7 +27,11 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode interactionKey2 = KeyCode.RightControl;
     public KeyCode subInteractionKey2 = KeyCode.Slash;
 
-
+    public bool canMoveLeft = true;
+    public bool canMoveRight = true;
+    public bool canMoveUp = true;
+    public bool canMoveDown = true;
+    public bool canMove = true;
 
     // Start is called before the first frame update
     void Start()
@@ -55,12 +59,12 @@ public class PlayerMovement : MonoBehaviour
     public void MovementInput()
     {
         moveInput = Vector2.zero;
-        if (Input.GetKey(leftKey))
+        if (Input.GetKey(leftKey) && canMoveLeft)
         {
             moveInput.x = -1f;
             spr.flipX = moveInput.x * -1 < 0;
         }
-        else if (Input.GetKey(rightKey))
+        else if (Input.GetKey(rightKey) && canMoveRight)
         {
             moveInput.x = 1f;
             spr.flipX = moveInput.x * -1 < 0;
@@ -69,11 +73,11 @@ public class PlayerMovement : MonoBehaviour
         {
             moveInput.x = 0f;
         }
-        if (Input.GetKey(downKey))
+        if (Input.GetKey(downKey) && canMoveDown)
         {
             moveInput.y = -1f;
         }
-        else if (Input.GetKey(upKey))
+        else if (Input.GetKey(upKey) && canMoveUp)
         {
             moveInput.y = 1f;
         }
@@ -88,8 +92,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        MovementInput();
+        if(canMove)
+        {
+            MovementInput();
+        }
 
     }
 }
