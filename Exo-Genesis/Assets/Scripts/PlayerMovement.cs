@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private SpriteRenderer spr;
+    private Animator animator;
 
 
     [Header("KeyCodes For Player1")]
@@ -38,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         spr = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
 
         ChangeControls();
 
@@ -61,30 +63,26 @@ public class PlayerMovement : MonoBehaviour
         moveInput = Vector2.zero;
         if (Input.GetKey(leftKey) && canMoveLeft)
         {
-            moveInput.x = -1f;
-            spr.flipX = moveInput.x * -1 < 0;
+            moveInput.x = -1;
+            animator.SetInteger("Direction", 3);
         }
         else if (Input.GetKey(rightKey) && canMoveRight)
         {
-            moveInput.x = 1f;
-            spr.flipX = moveInput.x * -1 < 0;
-        }
-        else
-        {
-            moveInput.x = 0f;
+            moveInput.x = 1;
+            animator.SetInteger("Direction", 2);
         }
         if (Input.GetKey(downKey) && canMoveDown)
         {
-            moveInput.y = -1f;
+            moveInput.y = -1;
+            animator.SetInteger("Direction", 0);
+
         }
         else if (Input.GetKey(upKey) && canMoveUp)
         {
-            moveInput.y = 1f;
+            moveInput.y = 1;
+            animator.SetInteger("Direction", 1);
         }
-        else
-        {
-            moveInput.y = 0f;
-        }
+        animator.SetBool("IsMoving", moveInput.magnitude > 0);
         rb.velocity = moveInput * moveSpeed;
 
     }
