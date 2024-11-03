@@ -960,7 +960,7 @@ GameObject:
   - component: {fileID: 6460046840908240126}
   - component: {fileID: 4553985406684915889}
   m_Layer: 5
-  m_Name: OptionsMenu
+  m_Name: MainOptionsMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
