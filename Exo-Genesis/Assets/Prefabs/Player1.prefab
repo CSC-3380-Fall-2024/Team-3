@@ -1106,7 +1106,7 @@ SpriteRenderer:
   m_Size: {x: 0.65625, y: 1.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
 --- !u!114 &1289275255004671511
@@ -1143,8 +1143,8 @@ MonoBehaviour:
   rightKey: 100
   upKey: 119
   downKey: 115
-  interactionKey: 306
-  subInteractionKey: 301
+  interactionKey: 101
+  subInteractionKey: 114
   leftKey2: 276
   rightKey2: 275
   upKey2: 273
