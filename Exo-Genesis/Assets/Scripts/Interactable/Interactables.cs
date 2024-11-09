@@ -7,7 +7,7 @@ public class Interactables : MonoBehaviour
     public string itemName; //name of the item
     public ItemType itemType; // type of item
 
-    public void Interact()
+    public virtual void Interact()
     {
 
        Inventory.instance.AddItem(this);
