@@ -13,6 +13,8 @@ public class InteractionSystem : MonoBehaviour
     private void Start()
     {
         player = GetComponent<PlayerMovement>();
+        //detectLayer = LayerMask.NameToLayer("Item");
+        //detectPoint = GetComponent<Transform>();
     }
 
 
@@ -34,7 +36,20 @@ public class InteractionSystem : MonoBehaviour
             //Debug.Log("in range");
             if (InteractInput())
             {
-                Debug.Log("interacting");
+                Collider2D collider = Physics2D.OverlapCircle(detectPoint.position, detectRadius, detectLayer);
+
+                if (collider != null)
+                {
+                    Interactables interactableObject = collider.GetComponent<Interactables>();
+
+                    // If it's an interactable object, call its Interact method
+                    if (interactableObject != null)
+                    {
+                        interactableObject.Interact();  // Call the Interact method
+                    }
+                }
+
+                Debug.Log("Interacting with object!");
             }
         }
     }
