@@ -19,6 +19,9 @@ public enum ItemType
 {
     Weapons,
     Berries,
+    Oxygen,
+    Health,
+    Water, 
     Tools
     //can add more 
 }
