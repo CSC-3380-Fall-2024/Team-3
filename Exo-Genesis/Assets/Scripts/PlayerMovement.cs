@@ -17,8 +17,8 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode rightKey = KeyCode.D;
     public KeyCode upKey = KeyCode.W;
     public KeyCode downKey = KeyCode.S;
-    public KeyCode interactionKey = KeyCode.E;
-    public KeyCode subInteractionKey = KeyCode.R;
+    public KeyCode interactionKey = KeyCode.LeftControl;
+    public KeyCode subInteractionKey = KeyCode.CapsLock;
 
     [Header("KeyCodes For Player2")]
     public KeyCode leftKey2 = KeyCode.LeftArrow;
