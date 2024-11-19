@@ -1471,7 +1471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9005063529601819397, guid: 86c67ed5a95064112a4d882c78e6636f, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1488,7 +1488,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 211119856025234485, guid: 5fb4ff71f40dd47c28f8f805b813f8b0, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 276044333587994396, guid: 5fb4ff71f40dd47c28f8f805b813f8b0, type: 3}
       propertyPath: m_AnchoredPosition.x
