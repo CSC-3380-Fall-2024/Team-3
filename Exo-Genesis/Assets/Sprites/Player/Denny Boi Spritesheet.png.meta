@@ -1,0 +1,4065 @@
+fileFormatVersion: 2
+guid: 8ecd73ae7a170b749b159c91c49d1c14
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1290
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60afdff3767587146950b2dfc9f1d06f
+      internalID: 1018705211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1290
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d10946bf9955b742b80ea3d75864ca9
+      internalID: -1099443938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1290
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2b6b40e44d1d243b41a12b97661f49
+      internalID: 139462283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1290
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474024db280009b458bbc43fa86cbd49
+      internalID: -1603222107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1290
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697ac8476a8ee2b4c814f8d8fecbba3d
+      internalID: 1810819755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1290
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ea266b98d570642bfa3f4a9edfad77
+      internalID: 1769538627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1290
+        width: 84
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27fe2f6c1919d84084d588224b39ece
+      internalID: 1561757333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1226
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53812302b8f97f4e8eb9c2025ffac7b
+      internalID: 243224324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1226
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1aa984172af2274abeaa911891b8012
+      internalID: 1897988436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1226
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c73b3d31df96a40a607531285bae3a
+      internalID: 235200665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1226
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f7df44e16edc1418f81dd0dde97408
+      internalID: 710988728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1226
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b38cfca9d79e04099ff6e8f274f872
+      internalID: 86782643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_12
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1226
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67ac0e46db38c6419310fb8ff82ce10
+      internalID: 731509157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1226
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304ff5b77e1d4d144a0a39770f61eed8
+      internalID: 1780105060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1162
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2456e7b6e3dcafd41839fe5a84809b2d
+      internalID: -1135618727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1162
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f25a17c9bfdf0c44ae5e1033f48dcb9
+      internalID: 662943396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1162
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c782c4120bd6814d80ca654c7419fc4
+      internalID: -499341070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1162
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abec4468cc87054eaf664c6c33956b1
+      internalID: 1600662233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1162
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f511d918b12b0468df48b7c5ec5894
+      internalID: 1387293914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1162
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93966a7410e0e6d4088379e54c330ded
+      internalID: 1747502144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1162
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa753d9d7820824f91a14b7108dd4ec
+      internalID: -83269822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1098
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637b0914a99ee364585366f88777bb44
+      internalID: 1694990309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1098
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef97516d0dd2c8499254dd4ca83c81a
+      internalID: -1628228716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1098
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a242d6004b278f141887808a4a2567f9
+      internalID: -1047880265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1098
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57e0728e4d79dd4780ac80b6f33b0e6
+      internalID: 2031509209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1098
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9ad752a5e20c14f8c39009d461b9ff
+      internalID: -37333176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1098
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abd8a9f176144f4ca385431925542d7
+      internalID: -1551446159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1098
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c910aa1a72e6bb41a9a0b674c246312
+      internalID: -1562678596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1034
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca18cc09a9e15e547a2146c0da182cba
+      internalID: -356283496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1032
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3a8161317c41f44bdd42e29fcdca34
+      internalID: 1144492916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1032
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f7324ba623a0846819bfdd9457e89c
+      internalID: 337785704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_31
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1032
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89267744cb932c3429d46e8d48b8ca11
+      internalID: 716537834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_32
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1032
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41869f6d1b98d1f4b8a018315e19456b
+      internalID: 953990167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_33
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1032
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b37c562a5be18468f8e7b5abf77226
+      internalID: -2000600853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_34
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1032
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966c37ddc77c1e3499196ab381db6524
+      internalID: 1574986756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_35
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1032
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6f50c4a4e378d43b82dcd8168fef58
+      internalID: -686513477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 970
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdc5660d4e775d48b6af94d6f334ab4
+      internalID: 1831665927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_37
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 970
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab650932981c82045b550725d6ee295a
+      internalID: -1863208593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_38
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 970
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7d76a70862cbe4081ff0d14925acb3
+      internalID: 630543559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_39
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 970
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeebb1fd2df57de4686d45bac605a86b
+      internalID: -1932759642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_40
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 970
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707c248b6432d8541af86627666581e0
+      internalID: -1781591394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 970
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030a6b2e8299fa1458c840da37231923
+      internalID: 103517482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_42
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 970
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c53a708fbb5b734682bfebc1017001d
+      internalID: 1547466164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_43
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 970
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915b282c2116154409b5243005b30ea5
+      internalID: 717500015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 906
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a752f8aeae7024882971cfb8ff3584
+      internalID: 681898323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 907
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfeb919a75051db429f54d8f7192e1a7
+      internalID: -1925059074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_46
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 907
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5534603c5ca108c4d9e2b785c030c5de
+      internalID: 527554889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 907
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14e6bcf1e682e94dba3d4e5355233f5
+      internalID: 2091240280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 907
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50340c923cc01b499a74ea715a4c576
+      internalID: -257292536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_49
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 907
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034c28f01aa4c0a4295f49313135e420
+      internalID: -1022573104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_50
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 907
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a48a98a2d679543909a996a7c8f56e
+      internalID: -1977841572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_51
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 907
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cb86b7906dc3c448249db0e2d51847
+      internalID: 849077126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_52
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 842
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc260edd9b44b0044b4da36b52114e25
+      internalID: -1766596821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 842
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c535a75249c567141adfd244a09ff3ee
+      internalID: 1637453999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 842
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301773bc6aee3ee4f93f70308dd9cffc
+      internalID: -2049057998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_55
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 842
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaf758075be63243bc6c9a0b3d6ff73
+      internalID: 436368993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_56
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 842
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd55d06cdbd2b3d4e9959fbd88046033
+      internalID: 1119872367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_57
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 842
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b093f9a4710faf542af4da66aab0fe12
+      internalID: -1830915720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_58
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 842
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6c5f1239e8b9c41b5709d2d20ad63f
+      internalID: -1815273656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_59
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 842
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379449c06653c9a4fa3c795341aa14e7
+      internalID: 381458238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_60
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 778
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab33806b5195dd4cbf68ccfb01909c3
+      internalID: 308627064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 779
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4db5d5e57b611144a152fccd6fe5bcf
+      internalID: 1352394826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_62
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 778
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362d3e7e8ffff144e9a6ef06d069086a
+      internalID: -271971068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_63
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 777
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2f9407b73d431438b037136543d88a
+      internalID: 1323585710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_64
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 778
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f87a2d21ced7e498987bc194168f94
+      internalID: 958284485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_65
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 779
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9d539fba8d49746ab28de8fd9426fc
+      internalID: 1659687888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 778
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17286b98199ce314998b10e212cc10d8
+      internalID: -1392505024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 777
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5eb7cc129ff94640b1c0f26c4a6fe2e
+      internalID: 2036620169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 778
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab8fec64a6d7a04590a3c9ae2e478a1
+      internalID: -342610024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_69
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 714
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc933cda471a9d641aad8236314febfc
+      internalID: 1365277419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_70
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 714
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ec64b01bba6c347aec25949e9f336a
+      internalID: 1672883621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_71
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 715
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f3ec8a358b99f41b00a744da8cf983
+      internalID: 411842011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_72
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 715
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0629eca676c4cc0419d1c6a77f77e495
+      internalID: -1797902155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_73
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 714
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bb808044f58a04283cdd694f0d4ecd
+      internalID: -759119779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_74
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 714
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4007032394f8804893cfb719a69f407
+      internalID: -1973907967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_75
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 714
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534cdaafa1716f34ea85b40d24077de2
+      internalID: 1832332495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_76
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 714
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065776f3760a1634781e705c0773f43e
+      internalID: 1789016924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_77
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 714
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7430193dba5fd46ad44ae129375ba0
+      internalID: 921245995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_78
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 650
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ac5e8a29f906547a00f11194378b45
+      internalID: -1657657622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 650
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c2fe6345ca33944b63bd0311c78136
+      internalID: -1078966438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 649
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3f34c1b1d84cf4d89331501904010b
+      internalID: 2008907810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 649
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d877b54fa6c9866418b2f0092dd6b380
+      internalID: 574361980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 649
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66762aeaf72cf74bac627af2032435a
+      internalID: 735295593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 650
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9315b433bd24d4f47a2914656868bdeb
+      internalID: -1371927029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_84
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 649
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039225e57c906d442b07f9f184f49d5e
+      internalID: -1796440083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 649
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59eee9ae6170ff34ab0aa5fe0b29d987
+      internalID: 11833565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 649
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347be716da60ba2428ee6c32bcf1a378
+      internalID: 1662706827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_87
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 586
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65155e45ea2369944b0c08a9ceb9650e
+      internalID: 1690704728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_88
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 586
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d843dba35d6b24db029dbf68556b5e
+      internalID: 1147162997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_89
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 587
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25826f927cf9664429b322d84f08e131
+      internalID: -782592725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_90
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 587
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e152a860ef3ac4e80e2dcd636a47cd
+      internalID: -1194719043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_91
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 586
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaccde9f0d9e5634ca9215d961de39bf
+      internalID: 819925048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_92
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 586
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f48175c29f0d394b840b8763a2c38d4
+      internalID: 797824673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_93
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 586
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f3b0f2e2d58ae48898001c482eed10
+      internalID: -1936127296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_94
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 586
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df157c56cab08546be7b0bcc64c90a6
+      internalID: -495124060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_95
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 586
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd923ffb54602a48bb1d65c52a17c9f
+      internalID: 468722823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_96
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 522
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe9258d4fad84641ab8f74af4b34f34
+      internalID: -1737175605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_97
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 521
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd667a506c5b6a4da056d635d805ee7
+      internalID: -1446741680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_98
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 521
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f532f7f0f9e3b14baa437efb21b6922
+      internalID: 1795273147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_99
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 521
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d24f583f80daa4e8f1c7cd488bb89d
+      internalID: -436004937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_100
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 521
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ac38d77fbe7a74faef4f15c916a52f
+      internalID: 1159044797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_101
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 521
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9633191c485eba649a89433fb8b87c5e
+      internalID: -559987153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_102
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 530
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77db48f0a10a3904491c61f44388cae4
+      internalID: -1228598015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_103
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 458
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf37ecd11fa0fa6419133367f84c8abb
+      internalID: -203069772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_104
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 458
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e56d1715bab33b49a9d3edb343a763b
+      internalID: -1781779213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_105
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 458
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ebc4c99ee5e79479411e34f8286844
+      internalID: 1384818585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_106
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 458
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cde11f3000c8364683566e550d0ba20
+      internalID: 931388211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_107
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 458
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999d42a5c7d726c40811fa97f1c82775
+      internalID: -1289557698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_108
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 458
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58498a94974c49948aab7edc5ce18e51
+      internalID: -172311179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_109
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 394
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73b5aaa339643943bfa0b1b5baf27ee
+      internalID: -1412287921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_110
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 394
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b952925e85f477a48a5a86d78f8c3848
+      internalID: 1340812207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_111
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 394
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507771b59bfa26846b9d99cbc9cc6812
+      internalID: 1406059338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_112
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 394
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23adff5eb0e3bec46bd6c83995d45874
+      internalID: -697051994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_113
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 394
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524827fd6e546424699bd93d2d5c2715
+      internalID: -155822021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_114
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 394
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7338c79b2d3ecbc449e12e38cdafcb28
+      internalID: -782847807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_115
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 330
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c34507619324be40b2e0ee658ec7758
+      internalID: 2020993937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_116
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 330
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b9a91889b6a504ebe1265ecaeaafc4
+      internalID: 820134085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_117
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 330
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41b5f0a67a13b14f8ac8fb4ea02d40c
+      internalID: -1575551251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_118
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 330
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a533cbe0fdbe154d9a2f323a257e876
+      internalID: -202015756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_119
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 330
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1350ff443a4f83c409fbfb86779f4a58
+      internalID: 334551593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_120
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 330
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e69549b5e51bb41b4f0ab048f79678
+      internalID: -613327107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_121
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 266
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd431d5fe9f7edb4bb72fa7ef3cd864c
+      internalID: -1265705067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_122
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 264
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b1073583ac87345836e35dfeb3bd47
+      internalID: 1260678107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_123
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 264
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ae5c4bdebb0c9428139d9367919335
+      internalID: -865526409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_124
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 264
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae39d8c1aa3b5946aa5c5cc88728b18
+      internalID: 708102930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_125
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 264
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525fa712a7952e14c9ba47bc541aa62a
+      internalID: 413120418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_126
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 264
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc43f8e128622564bba5d8136292881c
+      internalID: 1318535052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_127
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 264
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777bef4eab71b424a9b3dd7d2bf24899
+      internalID: 462564361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_128
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 264
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68517d66848d362419cf9eb393654e03
+      internalID: 1991795818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_129
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 264
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1ab9a95a2ceeb439ab310116640bd6
+      internalID: -1738430011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_130
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 264
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f045e7c66b8a9d24cb01c27fe416a413
+      internalID: -1680887769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_131
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 264
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c8043c4626e1f448694f98309f8739
+      internalID: 1334082849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_132
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 264
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0eed8a93a69cbd42bd37b965d304dec
+      internalID: -607653800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_133
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 264
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d45ffe2da417f84f9c4e8add9b5f669
+      internalID: -1183915200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_134
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 202
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396a1bad8ee60ec4a81b01bde8fa72b3
+      internalID: 154384587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_135
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 202
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3c2cdb2051aa8498a61fe0fb73fc0b
+      internalID: -775385375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_136
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 202
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d98464394b917a47a39b61b3e28fe11
+      internalID: 749049329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_137
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 202
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37368cc521d6604986442197f031157
+      internalID: -1616751205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_138
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 202
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97298b698c55d540a019c0b809067f9
+      internalID: 180263022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_139
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 202
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e0c5176c1f57942bc29c2843045f27
+      internalID: 1322468128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_140
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 202
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168b7680fb300e84ea162dfd990524cd
+      internalID: -693945939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_141
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 202
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797107cbbcdb57843ae75c77baee9e47
+      internalID: 2016070092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_142
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 202
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10c56cef46399046aed16ff1de8abb0
+      internalID: -145758381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_143
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 202
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e868a01099dfa44fa363513b8d955b4
+      internalID: -1471347491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_144
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 202
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94871384a94b7c9458a488c197e53deb
+      internalID: -815169321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_145
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 202
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d0b9ed5670e0b4c86e50e8d306f21f
+      internalID: -1110428703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_146
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 202
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a747cc00ad7d01242a5cba017820cf8e
+      internalID: -845953307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_147
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 138
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5ff56b1dd2a0544b2fdef4e6e66eef
+      internalID: -787479482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_148
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 139
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17acead33bfb6447b75a25666bdecdf
+      internalID: 1921630504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_149
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 139
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7208708cfdc250140b59fc820df4140e
+      internalID: -1814737084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_150
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 138
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b16d37fec3a3c4a9ba56ab61ec40e5
+      internalID: 803260700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_151
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 138
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1088a4cd46bb643afad3a95a95a3bb
+      internalID: 1696718826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_152
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 138
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11499785fe52d984fb939cd062f90e10
+      internalID: -436361833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_153
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 138
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11115ec2c987473458624425cdeb1f20
+      internalID: -1129160460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_154
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 138
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4b73ca63f3b924b9a75125e0e11024
+      internalID: 705386756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_155
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 138
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2944cef1bacb525449b762e670888b81
+      internalID: -711866750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_156
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 138
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd16e88d722fb049840edf62284c70f
+      internalID: 1342274931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_157
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 138
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13315c37425ac242b5dc3294bf94f1b
+      internalID: 1933745651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_158
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 138
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5b55bdfed54084688ac42e9b102cf2
+      internalID: -936013606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_159
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 138
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdf20f4a43d5c54a85a6fb96cfca6dd
+      internalID: 258678954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_160
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 74
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e23ae3e54985684d9c7bd583f9d2a99
+      internalID: -900833449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_161
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 74
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095f5c908710cb04e91469724eb7e953
+      internalID: 706363770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_162
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 74
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0349b2cc41b03458a26b25bd0f93ae
+      internalID: -1465839261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_163
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 74
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074449f17283d3743b8045b0b015c1e8
+      internalID: -1013336141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_164
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 74
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6607c4e366285484ba0b34ce84c1e2b4
+      internalID: -400236561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_165
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 74
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1d5e3aaa02d9c4ba36a9c26957871c
+      internalID: 1873431922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_166
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 74
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45edf6870d9619143bb4420dd2513439
+      internalID: 397135718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_167
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 74
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ea2ee53cbb8964192fa6e455899385
+      internalID: 1263563721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_168
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 74
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e2e849e9218e340a74a44edee48438
+      internalID: -1111547226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_169
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 74
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8886ba31c9db046a4882f857128270
+      internalID: -1215531477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_170
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 74
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c600c750e740e5c4ebafe1c9212c7121
+      internalID: -671830970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_171
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 74
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a31cce94164bbe4e8bbf74733c96755
+      internalID: -1313857644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_172
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 74
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff56fd4990dcb0246904415d94dd5db8
+      internalID: 1864318237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_173
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 10
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68256bdcc3b5e3a4da104786604491b4
+      internalID: 400822845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_174
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 10
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4684d8f552047684bb12c6b77e8c10b9
+      internalID: -1751880855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_175
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 10
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262507e43063d0b4cad9b60d132638c7
+      internalID: 238405188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_176
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 11
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f23afe9a72f93f4bb909ef6b9006063
+      internalID: 1619855957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_177
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 9
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c061d98b126b3784cb046388cd64357a
+      internalID: -826290115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Denny Boi Spritesheet - Copy (3)_178
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 8
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb4a745a2246304cb2331032f584853
+      internalID: 1681963784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Denny Boi Spritesheet - Copy (3)_0: 1018705211
+      Denny Boi Spritesheet - Copy (3)_1: -1099443938
+      Denny Boi Spritesheet - Copy (3)_10: 710988728
+      Denny Boi Spritesheet - Copy (3)_100: 1159044797
+      Denny Boi Spritesheet - Copy (3)_101: -559987153
+      Denny Boi Spritesheet - Copy (3)_102: -1228598015
+      Denny Boi Spritesheet - Copy (3)_103: -203069772
+      Denny Boi Spritesheet - Copy (3)_104: -1781779213
+      Denny Boi Spritesheet - Copy (3)_105: 1384818585
+      Denny Boi Spritesheet - Copy (3)_106: 931388211
+      Denny Boi Spritesheet - Copy (3)_107: -1289557698
+      Denny Boi Spritesheet - Copy (3)_108: -172311179
+      Denny Boi Spritesheet - Copy (3)_109: -1412287921
+      Denny Boi Spritesheet - Copy (3)_11: 86782643
+      Denny Boi Spritesheet - Copy (3)_110: 1340812207
+      Denny Boi Spritesheet - Copy (3)_111: 1406059338
+      Denny Boi Spritesheet - Copy (3)_112: -697051994
+      Denny Boi Spritesheet - Copy (3)_113: -155822021
+      Denny Boi Spritesheet - Copy (3)_114: -782847807
+      Denny Boi Spritesheet - Copy (3)_115: 2020993937
+      Denny Boi Spritesheet - Copy (3)_116: 820134085
+      Denny Boi Spritesheet - Copy (3)_117: -1575551251
+      Denny Boi Spritesheet - Copy (3)_118: -202015756
+      Denny Boi Spritesheet - Copy (3)_119: 334551593
+      Denny Boi Spritesheet - Copy (3)_12: 731509157
+      Denny Boi Spritesheet - Copy (3)_120: -613327107
+      Denny Boi Spritesheet - Copy (3)_121: -1265705067
+      Denny Boi Spritesheet - Copy (3)_122: 1260678107
+      Denny Boi Spritesheet - Copy (3)_123: -865526409
+      Denny Boi Spritesheet - Copy (3)_124: 708102930
+      Denny Boi Spritesheet - Copy (3)_125: 413120418
+      Denny Boi Spritesheet - Copy (3)_126: 1318535052
+      Denny Boi Spritesheet - Copy (3)_127: 462564361
+      Denny Boi Spritesheet - Copy (3)_128: 1991795818
+      Denny Boi Spritesheet - Copy (3)_129: -1738430011
+      Denny Boi Spritesheet - Copy (3)_13: 1780105060
+      Denny Boi Spritesheet - Copy (3)_130: -1680887769
+      Denny Boi Spritesheet - Copy (3)_131: 1334082849
+      Denny Boi Spritesheet - Copy (3)_132: -607653800
+      Denny Boi Spritesheet - Copy (3)_133: -1183915200
+      Denny Boi Spritesheet - Copy (3)_134: 154384587
+      Denny Boi Spritesheet - Copy (3)_135: -775385375
+      Denny Boi Spritesheet - Copy (3)_136: 749049329
+      Denny Boi Spritesheet - Copy (3)_137: -1616751205
+      Denny Boi Spritesheet - Copy (3)_138: 180263022
+      Denny Boi Spritesheet - Copy (3)_139: 1322468128
+      Denny Boi Spritesheet - Copy (3)_14: -1135618727
+      Denny Boi Spritesheet - Copy (3)_140: -693945939
+      Denny Boi Spritesheet - Copy (3)_141: 2016070092
+      Denny Boi Spritesheet - Copy (3)_142: -145758381
+      Denny Boi Spritesheet - Copy (3)_143: -1471347491
+      Denny Boi Spritesheet - Copy (3)_144: -815169321
+      Denny Boi Spritesheet - Copy (3)_145: -1110428703
+      Denny Boi Spritesheet - Copy (3)_146: -845953307
+      Denny Boi Spritesheet - Copy (3)_147: -787479482
+      Denny Boi Spritesheet - Copy (3)_148: 1921630504
+      Denny Boi Spritesheet - Copy (3)_149: -1814737084
+      Denny Boi Spritesheet - Copy (3)_15: 662943396
+      Denny Boi Spritesheet - Copy (3)_150: 803260700
+      Denny Boi Spritesheet - Copy (3)_151: 1696718826
+      Denny Boi Spritesheet - Copy (3)_152: -436361833
+      Denny Boi Spritesheet - Copy (3)_153: -1129160460
+      Denny Boi Spritesheet - Copy (3)_154: 705386756
+      Denny Boi Spritesheet - Copy (3)_155: -711866750
+      Denny Boi Spritesheet - Copy (3)_156: 1342274931
+      Denny Boi Spritesheet - Copy (3)_157: 1933745651
+      Denny Boi Spritesheet - Copy (3)_158: -936013606
+      Denny Boi Spritesheet - Copy (3)_159: 258678954
+      Denny Boi Spritesheet - Copy (3)_16: -499341070
+      Denny Boi Spritesheet - Copy (3)_160: -900833449
+      Denny Boi Spritesheet - Copy (3)_161: 706363770
+      Denny Boi Spritesheet - Copy (3)_162: -1465839261
+      Denny Boi Spritesheet - Copy (3)_163: -1013336141
+      Denny Boi Spritesheet - Copy (3)_164: -400236561
+      Denny Boi Spritesheet - Copy (3)_165: 1873431922
+      Denny Boi Spritesheet - Copy (3)_166: 397135718
+      Denny Boi Spritesheet - Copy (3)_167: 1263563721
+      Denny Boi Spritesheet - Copy (3)_168: -1111547226
+      Denny Boi Spritesheet - Copy (3)_169: -1215531477
+      Denny Boi Spritesheet - Copy (3)_17: 1600662233
+      Denny Boi Spritesheet - Copy (3)_170: -671830970
+      Denny Boi Spritesheet - Copy (3)_171: -1313857644
+      Denny Boi Spritesheet - Copy (3)_172: 1864318237
+      Denny Boi Spritesheet - Copy (3)_173: 400822845
+      Denny Boi Spritesheet - Copy (3)_174: -1751880855
+      Denny Boi Spritesheet - Copy (3)_175: 238405188
+      Denny Boi Spritesheet - Copy (3)_176: 1619855957
+      Denny Boi Spritesheet - Copy (3)_177: -826290115
+      Denny Boi Spritesheet - Copy (3)_178: 1681963784
+      Denny Boi Spritesheet - Copy (3)_18: 1387293914
+      Denny Boi Spritesheet - Copy (3)_19: 1747502144
+      Denny Boi Spritesheet - Copy (3)_2: 139462283
+      Denny Boi Spritesheet - Copy (3)_20: -83269822
+      Denny Boi Spritesheet - Copy (3)_21: 1694990309
+      Denny Boi Spritesheet - Copy (3)_22: -1628228716
+      Denny Boi Spritesheet - Copy (3)_23: -1047880265
+      Denny Boi Spritesheet - Copy (3)_24: 2031509209
+      Denny Boi Spritesheet - Copy (3)_25: -37333176
+      Denny Boi Spritesheet - Copy (3)_26: -1551446159
+      Denny Boi Spritesheet - Copy (3)_27: -1562678596
+      Denny Boi Spritesheet - Copy (3)_28: -356283496
+      Denny Boi Spritesheet - Copy (3)_29: 1144492916
+      Denny Boi Spritesheet - Copy (3)_3: -1603222107
+      Denny Boi Spritesheet - Copy (3)_30: 337785704
+      Denny Boi Spritesheet - Copy (3)_31: 716537834
+      Denny Boi Spritesheet - Copy (3)_32: 953990167
+      Denny Boi Spritesheet - Copy (3)_33: -2000600853
+      Denny Boi Spritesheet - Copy (3)_34: 1574986756
+      Denny Boi Spritesheet - Copy (3)_35: -686513477
+      Denny Boi Spritesheet - Copy (3)_36: 1831665927
+      Denny Boi Spritesheet - Copy (3)_37: -1863208593
+      Denny Boi Spritesheet - Copy (3)_38: 630543559
+      Denny Boi Spritesheet - Copy (3)_39: -1932759642
+      Denny Boi Spritesheet - Copy (3)_4: 1810819755
+      Denny Boi Spritesheet - Copy (3)_40: -1781591394
+      Denny Boi Spritesheet - Copy (3)_41: 103517482
+      Denny Boi Spritesheet - Copy (3)_42: 1547466164
+      Denny Boi Spritesheet - Copy (3)_43: 717500015
+      Denny Boi Spritesheet - Copy (3)_44: 681898323
+      Denny Boi Spritesheet - Copy (3)_45: -1925059074
+      Denny Boi Spritesheet - Copy (3)_46: 527554889
+      Denny Boi Spritesheet - Copy (3)_47: 2091240280
+      Denny Boi Spritesheet - Copy (3)_48: -257292536
+      Denny Boi Spritesheet - Copy (3)_49: -1022573104
+      Denny Boi Spritesheet - Copy (3)_5: 1769538627
+      Denny Boi Spritesheet - Copy (3)_50: -1977841572
+      Denny Boi Spritesheet - Copy (3)_51: 849077126
+      Denny Boi Spritesheet - Copy (3)_52: -1766596821
+      Denny Boi Spritesheet - Copy (3)_53: 1637453999
+      Denny Boi Spritesheet - Copy (3)_54: -2049057998
+      Denny Boi Spritesheet - Copy (3)_55: 436368993
+      Denny Boi Spritesheet - Copy (3)_56: 1119872367
+      Denny Boi Spritesheet - Copy (3)_57: -1830915720
+      Denny Boi Spritesheet - Copy (3)_58: -1815273656
+      Denny Boi Spritesheet - Copy (3)_59: 381458238
+      Denny Boi Spritesheet - Copy (3)_6: 1561757333
+      Denny Boi Spritesheet - Copy (3)_60: 308627064
+      Denny Boi Spritesheet - Copy (3)_61: 1352394826
+      Denny Boi Spritesheet - Copy (3)_62: -271971068
+      Denny Boi Spritesheet - Copy (3)_63: 1323585710
+      Denny Boi Spritesheet - Copy (3)_64: 958284485
+      Denny Boi Spritesheet - Copy (3)_65: 1659687888
+      Denny Boi Spritesheet - Copy (3)_66: -1392505024
+      Denny Boi Spritesheet - Copy (3)_67: 2036620169
+      Denny Boi Spritesheet - Copy (3)_68: -342610024
+      Denny Boi Spritesheet - Copy (3)_69: 1365277419
+      Denny Boi Spritesheet - Copy (3)_7: 243224324
+      Denny Boi Spritesheet - Copy (3)_70: 1672883621
+      Denny Boi Spritesheet - Copy (3)_71: 411842011
+      Denny Boi Spritesheet - Copy (3)_72: -1797902155
+      Denny Boi Spritesheet - Copy (3)_73: -759119779
+      Denny Boi Spritesheet - Copy (3)_74: -1973907967
+      Denny Boi Spritesheet - Copy (3)_75: 1832332495
+      Denny Boi Spritesheet - Copy (3)_76: 1789016924
+      Denny Boi Spritesheet - Copy (3)_77: 921245995
+      Denny Boi Spritesheet - Copy (3)_78: -1657657622
+      Denny Boi Spritesheet - Copy (3)_79: -1078966438
+      Denny Boi Spritesheet - Copy (3)_8: 1897988436
+      Denny Boi Spritesheet - Copy (3)_80: 2008907810
+      Denny Boi Spritesheet - Copy (3)_81: 574361980
+      Denny Boi Spritesheet - Copy (3)_82: 735295593
+      Denny Boi Spritesheet - Copy (3)_83: -1371927029
+      Denny Boi Spritesheet - Copy (3)_84: -1796440083
+      Denny Boi Spritesheet - Copy (3)_85: 11833565
+      Denny Boi Spritesheet - Copy (3)_86: 1662706827
+      Denny Boi Spritesheet - Copy (3)_87: 1690704728
+      Denny Boi Spritesheet - Copy (3)_88: 1147162997
+      Denny Boi Spritesheet - Copy (3)_89: -782592725
+      Denny Boi Spritesheet - Copy (3)_9: 235200665
+      Denny Boi Spritesheet - Copy (3)_90: -1194719043
+      Denny Boi Spritesheet - Copy (3)_91: 819925048
+      Denny Boi Spritesheet - Copy (3)_92: 797824673
+      Denny Boi Spritesheet - Copy (3)_93: -1936127296
+      Denny Boi Spritesheet - Copy (3)_94: -495124060
+      Denny Boi Spritesheet - Copy (3)_95: 468722823
+      Denny Boi Spritesheet - Copy (3)_96: -1737175605
+      Denny Boi Spritesheet - Copy (3)_97: -1446741680
+      Denny Boi Spritesheet - Copy (3)_98: 1795273147
+      Denny Boi Spritesheet - Copy (3)_99: -436004937
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
