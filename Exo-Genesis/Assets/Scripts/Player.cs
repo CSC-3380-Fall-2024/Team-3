@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : Character
 {
@@ -20,6 +21,8 @@ public class Player : Character
     public HealthBar thirstBar;
     public HealthBar oxygenBar;
 
+
+    public int score;
 
     // Start is called before the first frame update
     protected override void Start()
@@ -88,4 +91,11 @@ public class Player : Character
             Debug.Log("Dehydrated!");
         }
     }
+
+    void HandleDeath() {
+        PlayerPrefs.SetInt("PlayerScore", score); // Save the score
+
+        SceneManager.LoadScene("EndScreen"); // load end screen with score and such
+    }
 }
+
