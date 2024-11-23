@@ -20,6 +20,8 @@ public class Player : Character
     public HealthBar thirstBar;
     public HealthBar oxygenBar;
 
+    private Animator animator;
+
 
     // Start is called before the first frame update
     protected override void Start()
@@ -86,6 +88,11 @@ public class Player : Character
         if (currentThirst <= 0)
         {
             Debug.Log("Dehydrated!");
+        }
+
+        if (currentHealth == 0)
+        {
+            animator.SetBool("IsDead", true);
         }
     }
 }
