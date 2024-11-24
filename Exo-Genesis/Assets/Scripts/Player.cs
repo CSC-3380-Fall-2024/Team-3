@@ -33,6 +33,7 @@ public class Player : Character
     protected override void Start()
     {
         base.Start();
+        PlayerPrefs.SetInt("PlayerScore", 0);
         healthBar.SetMaxHealth(maxHealth);
         hungerBar.SetMaxHealth(minHunger);
         thirstBar.SetMaxHealth(minThirst);
@@ -106,7 +107,7 @@ public class Player : Character
 
         if (currentHealth <= 0)
         {
-            //            animator.SetBool("IsDead", true);
+            //animator.SetBool("IsDead", true);
             //removed this because it was giving a weird error - allen
             HandleDeath();
         }
