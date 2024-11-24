@@ -1,40 +1,35 @@
 using UnityEngine;
-using TMPro;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
+using TMPro;
+using UnityEngine.EventSystems;
 
 public class EndScreen : MonoBehaviour
 {
     public TMP_Text scoreText; 
     public Button NewGameButton;
-    
     public Button MainMenuButton;
-
-    public Button QuitButton;
+    public Button QuitGameButton;
 
     void Start()
     {
-        // Retrieve and display the player's score
         int playerScore = PlayerPrefs.GetInt("PlayerScore", 0);
         scoreText.text = "Your Score: " + playerScore.ToString();
         NewGameButton.onClick.AddListener(RestartGame);
         MainMenuButton.onClick.AddListener(GoToMainMenu);
-        QuitButton.onClick.AddListener(QuitGame);
+        QuitGameButton.onClick.AddListener(QuitGame);
     }
 
-   
     public void RestartGame()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level1"); 
     }
 
-    
     public void GoToMainMenu()
     {
         SceneManager.LoadScene("MainMenu"); 
     }
 
-    
     public void QuitGame()
     {
         Application.Quit();
