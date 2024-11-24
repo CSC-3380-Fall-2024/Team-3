@@ -27,7 +27,7 @@ public class MainMenu : MonoBehaviour
         ShowMainMenu();
 
         LoadCurrentSettings();
-
+        PlayerPrefs.SetInt("PlayerScore", 0);
         newGameButton.onClick.AddListener(StartGame);
         optionsButton.onClick.AddListener(ShowOptionsMenu);
         quitButtonMainMenu.onClick.AddListener(QuitGame);
