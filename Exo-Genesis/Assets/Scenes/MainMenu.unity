@@ -409,6 +409,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1663890330 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5251584208677392084, guid: 86c67ed5a95064112a4d882c78e6636f, type: 3}
+  m_PrefabInstance: {fileID: 3060720054266795922}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1761473359 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6030105037164272042, guid: 5fb4ff71f40dd47c28f8f805b813f8b0, type: 3}
@@ -531,7 +542,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1983744413}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98614cdf5f86541cfb53d3477c81a274, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a84dcc2c588640ea851aaa74e66806d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mainMenuCanvas: {fileID: 484147708}
@@ -544,7 +555,7 @@ MonoBehaviour:
   fullscreenToggle: {fileID: 690745528}
   applyButton: {fileID: 1816210903}
   backButton: {fileID: 1594883189}
-  quitButtonOptionsMenu: {fileID: 1364400257}
+  quitButtonOptionsMenu: {fileID: 1663890330}
 --- !u!1001 &3060720054266795922
 PrefabInstance:
   m_ObjectHideFlags: 0
