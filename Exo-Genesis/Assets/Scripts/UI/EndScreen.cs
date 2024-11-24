@@ -1,34 +1,38 @@
 using UnityEngine;
-using UnityEngine.UI; // Ensure this is included for handling UI components
-using UnityEngine.SceneManagement; // For scene switching
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using TMPro;
+using UnityEngine.EventSystems;
 
 public class EndScreen : MonoBehaviour
 {
-    public Text scoreText; // Reference to the Unity Text component for score display
+    public TMP_Text scoreText; 
+    public Button NewGameButton;
+    public Button MainMenuButton;
+    public Button QuitGameButton;
 
     void Start()
     {
-        // Retrieve and display the player's score
         int playerScore = PlayerPrefs.GetInt("PlayerScore", 0);
         scoreText.text = "Your Score: " + playerScore.ToString();
+        NewGameButton.onClick.AddListener(RestartGame);
+        MainMenuButton.onClick.AddListener(GoToMainMenu);
+        QuitGameButton.onClick.AddListener(QuitGame);
     }
 
-    // Method to restart the game from the beginning
     public void RestartGame()
     {
-        SceneManager.LoadScene("MainGameScene"); // Replace with your main game scene name
+        SceneManager.LoadScene("Level1"); 
     }
 
-    // Method to return to the main menu
     public void GoToMainMenu()
     {
-        SceneManager.LoadScene("MainMenuScene"); // Replace with your main menu scene name
+        SceneManager.LoadScene("MainMenu"); 
     }
 
-    // Method to quit the game (only works in built applications)
     public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("Quit Game"); // To show something happens in the editor, since quit won't work in testing.
+        Debug.Log("Quit Game"); 
     }
 }

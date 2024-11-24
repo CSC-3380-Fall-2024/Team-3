@@ -21,6 +21,8 @@ public class Player : Character
     public HealthBar thirstBar;
     public HealthBar oxygenBar;
 
+    private Animator animator;
+
 
     public int score;
 
@@ -89,6 +91,11 @@ public class Player : Character
         if (currentThirst <= 0)
         {
             Debug.Log("Dehydrated!");
+        }
+
+        if (currentHealth == 0)
+        {
+            animator.SetBool("IsDead", true);
         }
     }
 
