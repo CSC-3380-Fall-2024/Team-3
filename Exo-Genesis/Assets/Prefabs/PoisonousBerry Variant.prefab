@@ -9,16 +9,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1131280271166321545, guid: 7c26125254fc74c56a9b90d563a4d31c, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1131280271166321545, guid: 7c26125254fc74c56a9b90d563a4d31c, type: 3}
       propertyPath: m_Color.b
-      value: 0.5188679
+      value: 0.1954432
       objectReference: {fileID: 0}
     - target: {fileID: 1131280271166321545, guid: 7c26125254fc74c56a9b90d563a4d31c, type: 3}
       propertyPath: m_Color.g
-      value: 0.047505867
+      value: 0.23446102
       objectReference: {fileID: 0}
     - target: {fileID: 1131280271166321545, guid: 7c26125254fc74c56a9b90d563a4d31c, type: 3}
       propertyPath: m_Color.r
-      value: 0.022027401
+      value: 0.6792453
       objectReference: {fileID: 0}
     - target: {fileID: 2372073325278432563, guid: 7c26125254fc74c56a9b90d563a4d31c, type: 3}
       propertyPath: isPoisonous

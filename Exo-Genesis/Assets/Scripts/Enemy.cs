@@ -8,11 +8,21 @@ public class Enemy : Character
 {
     private Animator animator;
     private int score;
+    private Player player;
+    public int scoreValue = 20;
+
+
+    void Start()
+    {
+        player = GameObject.Find("Player").GetComponent<Player>();
+        score = player.score;
+        animator = GetComponent<Animator>();
+    }
 
 
     void Update()
     {
-       
+        
     }
 
     new public void TakeDamage(int damage)
@@ -29,8 +39,10 @@ public class Enemy : Character
     void Die()
     {
         Debug.Log("Enemy Died!");
-        // animator.SetBool("IsDead", true)
-        score++; // ALLEN CHANGE THIS WITH YOUR MENU MAGIC IG
+        if(player != null)
+        {
+            player.AddScore(scoreValue);
+        }
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
     }

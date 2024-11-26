@@ -38,6 +38,7 @@ public class InventorySlot : MonoBehaviour
     public void RemoveFromInventory()
     {
         Inventory.instance.Remove(item);
+        Debug.Log("REMOVED");
     }
 
     // Use the item
@@ -46,6 +47,8 @@ public class InventorySlot : MonoBehaviour
         if (item != null)
         {
             item.Interact();
+            RemoveFromInventory();
+            Debug.Log("USED");
         }
     }
 

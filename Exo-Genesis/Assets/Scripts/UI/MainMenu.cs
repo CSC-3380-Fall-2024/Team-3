@@ -27,7 +27,7 @@ public class MainMenu : MonoBehaviour
         ShowMainMenu();
 
         LoadCurrentSettings();
-
+        PlayerPrefs.SetInt("PlayerScore", 0);
         newGameButton.onClick.AddListener(StartGame);
         optionsButton.onClick.AddListener(ShowOptionsMenu);
         quitButtonMainMenu.onClick.AddListener(QuitGame);
@@ -97,7 +97,7 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        SceneManager.LoadScene("Level1");
     }
 
     public void QuitGame()

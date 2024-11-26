@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Player : Character
 {
@@ -14,6 +16,7 @@ public class Player : Character
     private float hungerTimer = 0f;
     private float thirstTimer = 0f;
     private float healthTimer = 0f;
+    private float survivalTimer = 0f;
 
     public HealthBar healthBar;
     public HealthBar hungerBar;
@@ -21,16 +24,23 @@ public class Player : Character
     public HealthBar oxygenBar;
 
     private Animator animator;
+    private bool isDead = false;
 
+    public TMP_Text scoreDisplay;
+
+    public int score;
 
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
+        PlayerPrefs.SetInt("PlayerScore", 0);
         healthBar.SetMaxHealth(maxHealth);
         hungerBar.SetMaxHealth(minHunger);
         thirstBar.SetMaxHealth(minThirst);
         oxygenBar.SetMaxHealth(maxOxygen);
+        score = 0;
+        animator = GetComponent<Animator>();
     }
 
 
@@ -40,6 +50,7 @@ public class Player : Character
         hungerTimer += Time.deltaTime;
         thirstTimer += Time.deltaTime;
         healthTimer += Time.deltaTime;
+        survivalTimer += Time.deltaTime;
         // Decrease oxygen every second
         if (oxygenTimer >= 1f)
         {
@@ -74,6 +85,12 @@ public class Player : Character
             healthBar.SetHealth(currentHealth);
         }
 
+        if (survivalTimer >= 10f)
+        {
+            AddScore(10);
+            survivalTimer = 0f;
+        }
+
         // Handle out of oxygen scenario
         if (currentOxygen <= 0)
         {
@@ -90,9 +107,30 @@ public class Player : Character
             Debug.Log("Dehydrated!");
         }
 
-        if (currentHealth == 0)
+        if (currentHealth <= 0 && !isDead)
         {
-            animator.SetBool("IsDead", true);
+            isDead = true; //prevent handledeath from being called multiple times
+            animator.SetBool("IsDead", true); // trigger death anim
+            StartCoroutine(HandleDeath());
         }
     }
+
+    public void AddScore(int amount)
+    {
+        score += amount;
+        if (scoreDisplay != null)
+        {
+            scoreDisplay.text = "Score: " + score.ToString();
+        }
+    }
+
+    private IEnumerator HandleDeath() {
+        //Wait for death animation to finish
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        
+        PlayerPrefs.SetInt("PlayerScore", score); // Save the score
+
+        SceneManager.LoadScene("EndScreen"); // load end screen with score and such
+    }
 }
+
