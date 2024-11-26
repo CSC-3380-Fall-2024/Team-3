@@ -24,6 +24,7 @@ public class Player : Character
     public HealthBar oxygenBar;
 
     private Animator animator;
+    private bool isDead = false;
 
     public TMP_Text scoreDisplay;
 
@@ -39,6 +40,7 @@ public class Player : Character
         thirstBar.SetMaxHealth(minThirst);
         oxygenBar.SetMaxHealth(maxOxygen);
         score = 0;
+        animator = GetComponent<Animator>();
     }
 
 
@@ -105,11 +107,11 @@ public class Player : Character
             Debug.Log("Dehydrated!");
         }
 
-        if (currentHealth <= 0)
+        if (currentHealth <= 0 && !isDead)
         {
-            //animator.SetBool("IsDead", true);
-            //removed this because it was giving a weird error - allen
-            HandleDeath();
+            isDead = true; //prevent handledeath from being called multiple times
+            animator.SetBool("IsDead", true); // trigger death anim
+            StartCoroutine(HandleDeath());
         }
     }
 
@@ -122,7 +124,10 @@ public class Player : Character
         }
     }
 
-    void HandleDeath() {
+    private IEnumerator HandleDeath() {
+        //Wait for death animation to finish
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        
         PlayerPrefs.SetInt("PlayerScore", score); // Save the score
 
         SceneManager.LoadScene("EndScreen"); // load end screen with score and such

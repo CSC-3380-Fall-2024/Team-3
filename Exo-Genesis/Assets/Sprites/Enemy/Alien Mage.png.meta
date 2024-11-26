@@ -1,0 +1,4049 @@
+fileFormatVersion: 2
+guid: 492f412d1b815914a9dc95e10e96bd49
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alien Mage_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1287
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a80159db2ce1cc478dc562401be4353
+      internalID: 1912813499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1287
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17458d53724e70241b44ff4b5bcbce1b
+      internalID: 1501444018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1287
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e20be6cc2512940b90e7b2c2887d2a
+      internalID: 11751538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1287
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c9358d1e742954d819301661e89417
+      internalID: -58387947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1287
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5f817edba3b9643a0867c834d8cad1
+      internalID: 166207557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1287
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e609b979fffc1459f47940c5d0213a
+      internalID: 1180547880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1287
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80e0a04eadcde046983943877b067e5
+      internalID: 82045156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1223
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691ee43d029503e4d995697ad5f5f60c
+      internalID: -514169566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1223
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8fd6fc074b7e64ca5f1492885b8335
+      internalID: 1572591265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1223
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd8f37320d1c604dbe5c6fa3b05141e
+      internalID: 189876911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1223
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2e7a1e68eb686458fe398c50fd36fa
+      internalID: -2087126474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1223
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cbed9b3ab91d746933e808dd7bab5f
+      internalID: 1049239996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_12
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1223
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a500d1a57a7126d4783b87260dfc08cf
+      internalID: 519048430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1223
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212ddd8fd201e814881164434cd16b41
+      internalID: 21544115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1159
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64fed5b959941e49b9194a5df960844
+      internalID: -1981354126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1159
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136a3043b5251414f83f470baa5bb9ce
+      internalID: 1502688839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1159
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cc59016713e734db85f161ffed50d4
+      internalID: 1084237075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1159
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b990ac0783b0be47b66b0d785b40d70
+      internalID: -1670116386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1159
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4016cb6ed64404394ef64cb6e2a019
+      internalID: 770280307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1159
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3d0805cfd8ea847b12346f545bdb08
+      internalID: 2119438712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1159
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8208b6d3736da634f9fb12f6f05ea8aa
+      internalID: -1837529293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1095
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba3d56336590ad4a8b84a118262c95c
+      internalID: 1419392250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1095
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3c6aa7556e6bc43801896ff618647d
+      internalID: 396519016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1095
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446ef0524b33c9342b4d29760e27d962
+      internalID: -55888086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1095
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa196b656b37dd438428ff084c53b78
+      internalID: 841291054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1095
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab40c1d16b6d484bb96d03e918781f1
+      internalID: -364246456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1095
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afa7729066a21a48adeb0ec18994e94
+      internalID: 1380045063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1095
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0e6f952d26dfb4c9f35cb62016f26a
+      internalID: 1742113393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1031
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d58b7138faeea14683eebf219f1c4fc
+      internalID: -370746928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1029
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f922890830bf99447be8cca73e6875b6
+      internalID: 442302680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1029
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4058ef4fc1adc248ae6acaabadf655d
+      internalID: 1298892879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_31
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1029
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a879ad91f0384324790c483d2cb9c40b
+      internalID: 638658404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1029
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87079250730e0ba47b832b81c7c9ab96
+      internalID: -1451306952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1029
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8a74a152824714bb2c023dd77fba61
+      internalID: -1958303367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_34
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1029
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15223d0645472934a904399bc8076371
+      internalID: -947356049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_35
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1029
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd1e55b51fa46d4a92f1907cbbcd488
+      internalID: 13798171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 967
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d747b5f9bba3204a856ba1bd97c4e11
+      internalID: 497022171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_37
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 967
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba5911d3d4cadc4fbc109ef42cd174c
+      internalID: 298766071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_38
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 967
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f269510107d1d4c4f899a3704df4515d
+      internalID: 1088943820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 967
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bef77245e826848bfdecf105256191
+      internalID: 1627564645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_40
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 967
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6255d30e6fd80a54fad413394e96754f
+      internalID: 838597071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 967
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866eeb99edab53048807c4e045798f09
+      internalID: -689659830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_42
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 967
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a882a82a3a7913c4dbaab64f3a12269d
+      internalID: 1252191603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 967
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04f285664fbd244d94ab6a88fc2e3ad
+      internalID: 835749947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 903
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd84cf9c7b0771a45aa3e1e4e547dab7
+      internalID: 1366109737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 904
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2612921a02a9f22428dcccabf964ecce
+      internalID: 1051424463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_46
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 904
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7709e85963fd6445a9af2db2da04501
+      internalID: 346552429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 904
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7901b3b189341c94a97fbdd9a3da14e1
+      internalID: 1790267411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_48
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 904
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b80f12d43043b548b60acbbebf18550
+      internalID: -1054319521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_49
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 904
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01f218f309eeb143bec4320db3fef3c
+      internalID: 1364434973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_50
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 904
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d7dc3c3e117394bbd9097a05ea854c
+      internalID: 1943973267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_51
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 904
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffcb0dbe2287f746b85cb25fa278bb9
+      internalID: -638209172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_52
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 839
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30906194eecb1684c83c89b1574fe28e
+      internalID: 2062184336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_53
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 839
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccdfb46661d43941987a0941b75366c
+      internalID: -89911871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_54
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 839
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6245fb327e49a4a84e9db6d819d97d
+      internalID: 1649598867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_55
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 839
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2af3a3408460b74d847d6e57c9ca155
+      internalID: -2119529460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_56
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 839
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e832cdbd58bca5408fb811bc4bfb3ac
+      internalID: -564935514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_57
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 839
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bee81f19005124ab3bef5cf3efea82
+      internalID: 2111756308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 839
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374718f068180af46a333c295663c8ca
+      internalID: -1811121254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_59
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 839
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb3d5815296f284a936ed804726bce8
+      internalID: 1794279763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_60
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 776
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f4c40dd7f7b384cb756769ea5fcd48
+      internalID: -1378922146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 776
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd16be6ad8a7374f9d1a7f35ca198c2
+      internalID: 737863388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_62
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 775
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f466699f389f44190703e8ee8299bb
+      internalID: 1825710087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_63
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 774
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498ddcc4bf753ad46b72342bf69bc7ac
+      internalID: -618143378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_64
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 775
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0790a9c7f7298a1449f5fba5a4cb7913
+      internalID: 1792654433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_65
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 776
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51276a1f9b36a4c45b08554f4dabe7c7
+      internalID: 835159757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 775
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2667c66ef235c9b4c9b8032834160bbd
+      internalID: 1223890346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_67
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 774
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6b58606cd13c9439dcc872b648a3e7
+      internalID: -5061081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 775
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5bfd2e5911c9543aeac6f0ec59f493
+      internalID: -584042722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_69
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 711
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d98a491d5f36264888ea18c1329b576
+      internalID: 1707557142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_70
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 711
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a0695a6f8f35b438cb099a15920bdc
+      internalID: -1394280656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_71
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 712
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccea54d11377435448cf4b19478343d5
+      internalID: 984096989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_72
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 712
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22059b36c1d38a94db0fd0059be04209
+      internalID: -537482354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_73
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 711
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0e9f483dd08b54d98e1f3e8a4a4f37
+      internalID: 1337011558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_74
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 711
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3a9d2918cf4a541a5da2eb727e8fee
+      internalID: 1914926821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_75
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 711
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c949485cf789a6c4f9abefe74a525dc9
+      internalID: -859350292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_76
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 711
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250b745b23ca0714e8c3df49f9dfe27a
+      internalID: 581171105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_77
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 711
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025f2cca71edc3548b2539ca4348fa9f
+      internalID: -337320093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_78
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 647
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf5a2e6dc9e6484799da2628940e75d
+      internalID: -1113725686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 647
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2536b8ef16dbabe468a72a37af3d4152
+      internalID: 1964703567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 646
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8852ab24f0cb4874bad2016d5bdf5862
+      internalID: 714600165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_81
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 646
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75517bd8af463774a87736d7bf4f6681
+      internalID: -643928176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 646
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c67915847f6184e90202939d5ba751
+      internalID: -972588483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 647
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881393d7451174240b34dc8aad559a36
+      internalID: 1647979222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_84
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 646
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c313ff898fcd24eb38a87c96018057
+      internalID: 874894070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 646
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc48d0edea0335a4ba626d8e50aaa783
+      internalID: -1890118680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 646
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3e705f8e276174cbd4008aa5e6dd44
+      internalID: -72082519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_87
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 583
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104ab7a5dba487544acff066a8d0cc12
+      internalID: -9635762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_88
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 583
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b70b0db2b2ccb743893ce10a01e75f4
+      internalID: -668470928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_89
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 584
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7900223cda3b6584eaa54b8240e829c0
+      internalID: -67877660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_90
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 584
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa72b1f2c0c7204689206face9988a1
+      internalID: 1116662703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_91
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 583
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fb98951fa04f946a15cce73d849031
+      internalID: 1564880011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_92
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 583
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fac42695549ea244947b7a552bef482
+      internalID: -691738860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_93
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 583
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a652bc038209301478fc60659bf85da4
+      internalID: 1246546104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_94
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 583
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8258fdbb00e6f1a4691c3f888a6ad09d
+      internalID: 940619598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_95
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 583
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1d01ef31b20044a9344e2ea96364e7
+      internalID: -1073246712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_96
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 519
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2996be25e97de14da8cf939719083e8
+      internalID: -119279841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_97
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 518
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19b1309cb6562b45bbf0ce056c2cf2d
+      internalID: 1619998590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_98
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 518
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2800cd221174ca4c9d86c669fd7f4e6
+      internalID: 1223412692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_99
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 518
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c41d5312b5324c4f991bd3bbd2f75a4
+      internalID: 1430524806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_100
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 518
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6741684af7f0d7c4b871223c50444b8d
+      internalID: -330423861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_101
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 518
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfbc00f0ffe3bb4f8fc65029c0e29b0
+      internalID: -1310145914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_108
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 455
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd64250ccff80d64ab8a9ee50b527d9c
+      internalID: 1670609554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 455
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e65250649658b42b8e6cc44ea632ab
+      internalID: -1888195429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_110
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 455
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1088374e92d4ed44e82ef5e39403a4f8
+      internalID: -961973669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_111
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 455
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7bd88bc7b539f4e9bfcdc11ecd37ed
+      internalID: 1125290106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_112
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 455
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a116c3ee743c8d4ba5d1eb86a255877
+      internalID: -1513489417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_113
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 455
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09145530b2ab4484da8657c27d2a9bea
+      internalID: 1675992381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_114
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 391
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a7ebb3b65f39f43b0360594bf21f94
+      internalID: -201896541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_115
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 391
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f03ce4ca601f24d9e6c7ee4ad97cac
+      internalID: 1690008147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_116
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 391
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd5d7ee94cb4da438669476557d249b
+      internalID: -1028129517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_117
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 391
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce9764764df7c646889f5d888c94c87
+      internalID: -1059838553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_118
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 391
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d0748d9d70fee45904a4c08b951325
+      internalID: 156907095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 391
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c02d813ec8dfd34b80274f15310bf98
+      internalID: -1866428835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_120
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 327
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f607da103a85afd4081a2d00aa6986b4
+      internalID: -879851094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_121
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 327
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f1597046af6f64a913e8a988c41c53
+      internalID: -888904884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_122
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 327
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da4bc95590d31647a7c1b5edec2af9c
+      internalID: -117324442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_123
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 327
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5758546af300d834e9197e1ef15c85e8
+      internalID: -850880169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_124
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 327
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5b00865c1a2c844abdd6f60e216ade
+      internalID: 942413583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_125
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 327
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2267887cec192844a3dc728672a329b
+      internalID: -2013099631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_126
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 263
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3036c7bc98665654e8b65675d32cd51c
+      internalID: 1551404997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_127
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 261
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af728199fc95b144d9ad5c2c042f08b1
+      internalID: -305502924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_128
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 261
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58226f718f168f2458cc42bce1549ca2
+      internalID: 1248363262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_129
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 261
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35cf6b11b1057940ac2a23a31255390
+      internalID: 671243361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_130
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 261
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4232977f49d8f2d4aaee3a0ed758297c
+      internalID: 1629662111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_131
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 261
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55f7005cafe6754bafc1403b6d82d6a
+      internalID: -684843070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_132
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 261
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057659297de49104c9e124cadc4c550d
+      internalID: 1356292374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_133
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 261
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f426784f95280c3459c6b3bb3215082c
+      internalID: 1031408760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_134
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 261
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0200475581dad514e886706d225ead6a
+      internalID: -21996036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_135
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 261
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534b0a70069e6414f93e0f25cce178dd
+      internalID: -169098026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_136
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 261
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbba2884a7e19546bb2c6abfe3be00f
+      internalID: 299080790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_137
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 261
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c23c5f9ee57894a82656fd74243722
+      internalID: -1024886457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_138
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 261
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d23faa42e8c6a842bbdf5b592665e43
+      internalID: -1244437637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_139
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 199
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505c4b9f5270431409013ba2a7abd641
+      internalID: 1420693582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_140
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 199
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b47edc4ec115634096f8303006e3bb6
+      internalID: 563888958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_141
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 199
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a38a26bcb8afe543a72b8cec4aa5f9d
+      internalID: 1884235552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_142
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 199
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fa0c58453295246a66e73f577d903d
+      internalID: 1064490795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_143
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 199
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86625bb49155df84dbcc679cb2a6deb2
+      internalID: -1342147957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_144
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 199
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1370759abd56c74eb36ad9d00eb85b2
+      internalID: -1816103377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_145
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 199
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3920c9f4b00a894c8724d040905b478
+      internalID: -55125932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_146
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 199
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e17f9a23ebad64f95888c68ba05307
+      internalID: 9672846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_147
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 199
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5d28ae416b94140862cafe14fca172
+      internalID: 693583228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_148
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 199
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a219237c487974cb1104bad5b334c3
+      internalID: 1653104323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_149
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 199
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae8ca621689b714090be2b4e8cd38ce
+      internalID: -1183142260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_150
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 199
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecb8ba623105b74086415ef3d760e65
+      internalID: -1245463719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_151
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 199
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f54ac99fe2bedc48a8bbffaefd7f968
+      internalID: 947109049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_152
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 135
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c24f868acb46504f8721ea9dbdd4535
+      internalID: 1120062722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_153
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 136
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4117e9103c75713409062847884a5e81
+      internalID: 1397357703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_154
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 136
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138b117c2f93e174e88b26d49c9c2a8f
+      internalID: 1643909920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_155
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 135
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e367242c8e4df6c47943e1b2e0d6d211
+      internalID: 1439736035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_156
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 135
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd6813dd9b58b94984bfec38aa19b63
+      internalID: -773330340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_157
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 135
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2348ad4a5563144aa89697e6ae088c2
+      internalID: 2139201209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_158
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 135
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d9ca2e99376fc4aa69a680d594d984
+      internalID: 785500348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_159
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 135
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0108f47cfebb6c44aa83c3c6e6a088cc
+      internalID: -303530837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_160
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 135
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f282eb6a0d91b7469bbc06165f2a79f
+      internalID: 1637557570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_161
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 135
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd02cc99414f8d4eb729d957574dd63
+      internalID: 1557724942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_162
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 135
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c717ad98c914cf342b63ed3c5f1aeaf5
+      internalID: 1957260623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_163
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 135
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebc7d234fa63e44d95c6b30737a9f9f
+      internalID: 1042117613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_164
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 135
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71c77dac65aace4d894a8da698ec061
+      internalID: -1183740700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_165
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 71
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0823b271eb22aa345a7174b70ff1ff8c
+      internalID: -1996391465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_166
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 71
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5737090f877b51479be9c25e3ebc661
+      internalID: 1981254312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_167
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 71
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5338965ea9e52414c8e72e9f45cc18a6
+      internalID: -640392557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_168
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 71
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8506ba2789ad25b4a80b9cc105c2b6c9
+      internalID: 1259771826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_169
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 71
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3353abba574ae9e48b8df6adb398cc8e
+      internalID: 842691681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_170
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 71
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f5f685c9e035241808b134fb6b9919
+      internalID: 1567832222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_171
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 71
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa1ca0160c5b3440b53b35ed28364eb
+      internalID: 862748837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_172
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 71
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138a4f3b239683b4cbaee0686749ebd3
+      internalID: -1417627323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_173
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 71
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee6fc5b4908c6f4d9c7cfa40de45429
+      internalID: -964747275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_174
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 71
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f0d0de115715649a50560321c56a06
+      internalID: 620427012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_175
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 71
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db82971db443e5a4d964e274356b34b0
+      internalID: 260866968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_176
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 71
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9422e413dbbdb7d4095704aaabcb4064
+      internalID: -700515934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_177
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 71
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d214aa308c2a747a8e4cc751907dd0
+      internalID: -271476485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_178
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 7
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e29bb33d9f6af4ba149ed972a5b0f5
+      internalID: -949255143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_179
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 7
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045708308f4ccd9489e8e3b67cb6c765
+      internalID: 1775688455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_180
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 7
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30292bdc40ac704380fce790ed889ca
+      internalID: -240546547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_181
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 8
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf1094fe62ad1a469f38113bf92493e
+      internalID: 1859291476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_182
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 8
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb35dda3c67cb654b98f4f1207c9ab72
+      internalID: 196399448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Mage_183
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 6
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b62f22de4b0b244aa72b7589a9484c3
+      internalID: 1941667048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Alien Mage_0: 1912813499
+      Alien Mage_1: 1501444018
+      Alien Mage_10: -2087126474
+      Alien Mage_100: -330423861
+      Alien Mage_101: -1310145914
+      Alien Mage_102: 301344335
+      Alien Mage_103: -1534094123
+      Alien Mage_104: 1564391702
+      Alien Mage_105: 805754624
+      Alien Mage_106: -1211978301
+      Alien Mage_107: 1781243463
+      Alien Mage_108: 1670609554
+      Alien Mage_109: -1888195429
+      Alien Mage_11: 1049239996
+      Alien Mage_110: -961973669
+      Alien Mage_111: 1125290106
+      Alien Mage_112: -1513489417
+      Alien Mage_113: 1675992381
+      Alien Mage_114: -201896541
+      Alien Mage_115: 1690008147
+      Alien Mage_116: -1028129517
+      Alien Mage_117: -1059838553
+      Alien Mage_118: 156907095
+      Alien Mage_119: -1866428835
+      Alien Mage_12: 519048430
+      Alien Mage_120: -879851094
+      Alien Mage_121: -888904884
+      Alien Mage_122: -117324442
+      Alien Mage_123: -850880169
+      Alien Mage_124: 942413583
+      Alien Mage_125: -2013099631
+      Alien Mage_126: 1551404997
+      Alien Mage_127: -305502924
+      Alien Mage_128: 1248363262
+      Alien Mage_129: 671243361
+      Alien Mage_13: 21544115
+      Alien Mage_130: 1629662111
+      Alien Mage_131: -684843070
+      Alien Mage_132: 1356292374
+      Alien Mage_133: 1031408760
+      Alien Mage_134: -21996036
+      Alien Mage_135: -169098026
+      Alien Mage_136: 299080790
+      Alien Mage_137: -1024886457
+      Alien Mage_138: -1244437637
+      Alien Mage_139: 1420693582
+      Alien Mage_14: -1981354126
+      Alien Mage_140: 563888958
+      Alien Mage_141: 1884235552
+      Alien Mage_142: 1064490795
+      Alien Mage_143: -1342147957
+      Alien Mage_144: -1816103377
+      Alien Mage_145: -55125932
+      Alien Mage_146: 9672846
+      Alien Mage_147: 693583228
+      Alien Mage_148: 1653104323
+      Alien Mage_149: -1183142260
+      Alien Mage_15: 1502688839
+      Alien Mage_150: -1245463719
+      Alien Mage_151: 947109049
+      Alien Mage_152: 1120062722
+      Alien Mage_153: 1397357703
+      Alien Mage_154: 1643909920
+      Alien Mage_155: 1439736035
+      Alien Mage_156: -773330340
+      Alien Mage_157: 2139201209
+      Alien Mage_158: 785500348
+      Alien Mage_159: -303530837
+      Alien Mage_16: 1084237075
+      Alien Mage_160: 1637557570
+      Alien Mage_161: 1557724942
+      Alien Mage_162: 1957260623
+      Alien Mage_163: 1042117613
+      Alien Mage_164: -1183740700
+      Alien Mage_165: -1996391465
+      Alien Mage_166: 1981254312
+      Alien Mage_167: -640392557
+      Alien Mage_168: 1259771826
+      Alien Mage_169: 842691681
+      Alien Mage_17: -1670116386
+      Alien Mage_170: 1567832222
+      Alien Mage_171: 862748837
+      Alien Mage_172: -1417627323
+      Alien Mage_173: -964747275
+      Alien Mage_174: 620427012
+      Alien Mage_175: 260866968
+      Alien Mage_176: -700515934
+      Alien Mage_177: -271476485
+      Alien Mage_178: -949255143
+      Alien Mage_179: 1775688455
+      Alien Mage_18: 770280307
+      Alien Mage_180: -240546547
+      Alien Mage_181: 1859291476
+      Alien Mage_182: 196399448
+      Alien Mage_183: 1941667048
+      Alien Mage_19: 2119438712
+      Alien Mage_2: 11751538
+      Alien Mage_20: -1837529293
+      Alien Mage_21: 1419392250
+      Alien Mage_22: 396519016
+      Alien Mage_23: -55888086
+      Alien Mage_24: 841291054
+      Alien Mage_25: -364246456
+      Alien Mage_26: 1380045063
+      Alien Mage_27: 1742113393
+      Alien Mage_28: -370746928
+      Alien Mage_29: 442302680
+      Alien Mage_3: -58387947
+      Alien Mage_30: 1298892879
+      Alien Mage_31: 638658404
+      Alien Mage_32: -1451306952
+      Alien Mage_33: -1958303367
+      Alien Mage_34: -947356049
+      Alien Mage_35: 13798171
+      Alien Mage_36: 497022171
+      Alien Mage_37: 298766071
+      Alien Mage_38: 1088943820
+      Alien Mage_39: 1627564645
+      Alien Mage_4: 166207557
+      Alien Mage_40: 838597071
+      Alien Mage_41: -689659830
+      Alien Mage_42: 1252191603
+      Alien Mage_43: 835749947
+      Alien Mage_44: 1366109737
+      Alien Mage_45: 1051424463
+      Alien Mage_46: 346552429
+      Alien Mage_47: 1790267411
+      Alien Mage_48: -1054319521
+      Alien Mage_49: 1364434973
+      Alien Mage_5: 1180547880
+      Alien Mage_50: 1943973267
+      Alien Mage_51: -638209172
+      Alien Mage_52: 2062184336
+      Alien Mage_53: -89911871
+      Alien Mage_54: 1649598867
+      Alien Mage_55: -2119529460
+      Alien Mage_56: -564935514
+      Alien Mage_57: 2111756308
+      Alien Mage_58: -1811121254
+      Alien Mage_59: 1794279763
+      Alien Mage_6: 82045156
+      Alien Mage_60: -1378922146
+      Alien Mage_61: 737863388
+      Alien Mage_62: 1825710087
+      Alien Mage_63: -618143378
+      Alien Mage_64: 1792654433
+      Alien Mage_65: 835159757
+      Alien Mage_66: 1223890346
+      Alien Mage_67: -5061081
+      Alien Mage_68: -584042722
+      Alien Mage_69: 1707557142
+      Alien Mage_7: -514169566
+      Alien Mage_70: -1394280656
+      Alien Mage_71: 984096989
+      Alien Mage_72: -537482354
+      Alien Mage_73: 1337011558
+      Alien Mage_74: 1914926821
+      Alien Mage_75: -859350292
+      Alien Mage_76: 581171105
+      Alien Mage_77: -337320093
+      Alien Mage_78: -1113725686
+      Alien Mage_79: 1964703567
+      Alien Mage_8: 1572591265
+      Alien Mage_80: 714600165
+      Alien Mage_81: -643928176
+      Alien Mage_82: -972588483
+      Alien Mage_83: 1647979222
+      Alien Mage_84: 874894070
+      Alien Mage_85: -1890118680
+      Alien Mage_86: -72082519
+      Alien Mage_87: -9635762
+      Alien Mage_88: -668470928
+      Alien Mage_89: -67877660
+      Alien Mage_9: 189876911
+      Alien Mage_90: 1116662703
+      Alien Mage_91: 1564880011
+      Alien Mage_92: -691738860
+      Alien Mage_93: 1246546104
+      Alien Mage_94: 940619598
+      Alien Mage_95: -1073246712
+      Alien Mage_96: -119279841
+      Alien Mage_97: 1619998590
+      Alien Mage_98: 1223412692
+      Alien Mage_99: 1430524806
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
