@@ -15,6 +15,7 @@ public class RegularBerry : Interactables
     }
     public override void Interact()
     {
+        Debug.Log("vhuihf");
         Player player= FindObjectOfType<Player>();
 
         if (player != null)
@@ -25,9 +26,13 @@ public class RegularBerry : Interactables
             }
             else
             {
+                if (player.currentHunger >= 99)
+                {
+                    Inventory.instance.AddItem(this); // adds the item to the inventory if hunger is full
+                    Destroy(gameObject); //destroys the berry once the player interacts with it 
+                    return;
+                }
                 player.Eat(hungerIncrease); //increases the hunger bar
-                //Inventory.instance.AddItem(this); // adds the item to the inventory if hunger is full
-
             }
             Destroy(gameObject); //destroys the berry once the player interacts with it 
         }
