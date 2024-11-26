@@ -6,7 +6,7 @@ public class Water : Interactables
 {
 	public int thirstIncrease = 30; //adds 30 pts to thirst bar 
 
-	private void Start()
+	private void Start() 
 	{
 		itemName = "Water"; //name can be changed if needed 
 		itemType = ItemType.Water;
@@ -18,7 +18,13 @@ public class Water : Interactables
 
 		if (player != null)
 		{
-			player.Drink(thirstIncrease);
+            if (player.currentThirst >= 99)
+            {
+                Inventory.instance.AddItem(this); // adds the item to the inventory if thirst is full
+                Destroy(gameObject); //destroys the object after interaction
+                return;
+            }
+            player.Drink(thirstIncrease);
 			Debug.Log($"{player.characterName} drank water and added {thirstIncrease} pts to thirst");
 			Destroy(gameObject); //destroys the object after interaction
 		}

@@ -18,7 +18,13 @@ public class OxygenUnit : Interactables
 
 		if (player != null)
 		{
-			player.GetOxygen(oxygenIncrease); //increases the oxygen for the player
+            if (player.currentOxygen >= 99)
+            {
+                Inventory.instance.AddItem(this); // adds the item to the inventory if oxygen is full
+                Destroy(gameObject); //destroys the object after interaction
+                return;
+            }
+            player.GetOxygen(oxygenIncrease); //increases the oxygen for the player
 			Debug.Log($"{player.characterName} received {oxygenIncrease} oxygen.");
 
 			Destroy(gameObject); //destroys the object one it is collected 

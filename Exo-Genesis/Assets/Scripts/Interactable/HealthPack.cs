@@ -18,7 +18,13 @@ public class HealthPack : Interactables
 		Player player = FindObjectOfType<Player>();
 		if(player != null)
 		{
-			player.Heal(healthIncrease);
+            if (player.currentHealth >= 99)
+            {
+                Inventory.instance.AddItem(this); // adds the item to the inventory if health is full
+                Destroy(gameObject); //destroys the object after interaction
+                return;
+            }
+            player.Heal(healthIncrease);
 			Debug.Log($"{player.characterName} received {healthIncrease} health.");
 			Destroy(gameObject); //destroys the object after it is picked up 
 		}
