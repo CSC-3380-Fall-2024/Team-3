@@ -35,7 +35,7 @@ public class Inventory : MonoBehaviour
 
         if (item.showInInventory)
         {
-            if (food.Count + weapons.Count + supplies.Count >= space)
+            if (interactables.Count >= space)
             {
                 Debug.Log("already too many items");
                 return;
