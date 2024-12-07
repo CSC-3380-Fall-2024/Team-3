@@ -45,5 +45,6 @@ public class Enemy : Character
         }
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
+        Destroy(gameObject);
     }
 }
