@@ -46,6 +46,10 @@ public class Player : Character
 
     void Update()
     {
+        if (scoreDisplay != null)
+        {
+            scoreDisplay.text = score.ToString();
+        }
         oxygenTimer += Time.deltaTime;
         hungerTimer += Time.deltaTime;
         thirstTimer += Time.deltaTime;
@@ -87,7 +91,7 @@ public class Player : Character
 
         if (survivalTimer >= 10f)
         {
-            AddScore(10);
+            //AddScore(10);
             survivalTimer = 0f;
         }
 
@@ -118,10 +122,7 @@ public class Player : Character
     public void AddScore(int amount)
     {
         score += amount;
-        if (scoreDisplay != null)
-        {
-            scoreDisplay.text = "Score: " + score.ToString();
-        }
+       
     }
 
     private IEnumerator HandleDeath() {

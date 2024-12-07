@@ -8,21 +8,13 @@ public class Enemy : Character
 {
     private Animator animator;
     private int score;
-    private Player player;
-    public int scoreValue = 20;
-
+    private GameObject player;
+    public int scoreValue = 10;
 
     void Start()
     {
-        player = GameObject.Find("Player").GetComponent<Player>();
-        score = player.score;
+        player = GameObject.Find("Player1");
         animator = GetComponent<Animator>();
-    }
-
-
-    void Update()
-    {
-        
     }
 
     new public void TakeDamage(int damage)
@@ -39,12 +31,7 @@ public class Enemy : Character
     void Die()
     {
         Debug.Log("Enemy Died!");
-        if(player != null)
-        {
-            player.AddScore(scoreValue);
-        }
-        GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
+        player.GetComponent<Player>().AddScore(scoreValue);
         Destroy(gameObject);
     }
 }
