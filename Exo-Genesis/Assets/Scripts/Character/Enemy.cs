@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Xml;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Enemy : Character
 {
@@ -21,7 +22,7 @@ public class Enemy : Character
     {
         currentHealth -= damage;
 
-        //animator.SetTrigger("Hurt") this will get added
+        //There was an optional hurt anim here but we didn't have time
 
         if (currentHealth <= 0)
         {
@@ -31,7 +32,29 @@ public class Enemy : Character
     void Die()
     {
         Debug.Log("Enemy Died!");
+
+        // Trigger the death animation
+        animator.SetTrigger("Die");
+
+        // Disable enemy behavior
+        GetComponent<Collider2D>().enabled = false;
+        GetComponent<NavMeshAgent>().enabled = false; // If applicable
+
+        // Delay destruction to allow the death animation to play
+        StartCoroutine(DestroyAfterAnimation());
+    }
+
+    IEnumerator DestroyAfterAnimation()
+    {
+        // Wait for the animation to finish
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+
+        // Add score to the player
         player.GetComponent<Player>().AddScore(scoreValue);
+
+
+        // Destroy the enemy GameObject
+
         GameObject.Find("ItemSpawner").GetComponent<ItemSpawner>().StartCoroutine(GameObject.Find("ItemSpawner").GetComponent<ItemSpawner>().RespawnWhenDestroyed(gameObject));  //respawn item after one is destroyed
         Destroy(gameObject);
     }

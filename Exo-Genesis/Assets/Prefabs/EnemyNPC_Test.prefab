@@ -175,7 +175,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  animator: {fileID: 6173963862847326276}
   enemyDistance: 3
+  damageInterval: 1
 --- !u!195 &2165474876539338266
 NavMeshAgent:
   m_ObjectHideFlags: 0

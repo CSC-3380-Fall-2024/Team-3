@@ -175,7 +175,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  animator: {fileID: 4737556973658209809}
   enemyDistance: 3
+  damageInterval: 1
 --- !u!195 &728512725355300943
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -208,7 +210,7 @@ Animator:
   m_GameObject: {fileID: 918643297780618406}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 57415ce1c136c5c409d96fe25c432bd3, type: 2}
+  m_Controller: {fileID: 9100000, guid: 741410e39a8bfef42b9e4bf70a95be26, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
