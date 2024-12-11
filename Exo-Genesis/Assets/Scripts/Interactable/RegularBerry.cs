@@ -22,7 +22,7 @@ public class RegularBerry : Interactables
         {
             if (isPoisonous)
             {
-                player.GetHungry(hungerIncrease); //increases the hunger bar
+                player.TakeDamage(hungerIncrease); //increases the hunger bar
             }
             else
             {
@@ -32,7 +32,7 @@ public class RegularBerry : Interactables
                     Destroy(gameObject); //destroys the berry once the player interacts with it 
                     return;
                 }
-                player.Eat(hungerIncrease); //increases the hunger bar
+                player.Heal(hungerIncrease); //increases the hunger bar
             }
             Destroy(gameObject); //destroys the berry once the player interacts with it 
         }

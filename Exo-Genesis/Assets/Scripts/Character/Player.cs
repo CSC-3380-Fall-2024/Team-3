@@ -122,7 +122,8 @@ public class Player : Character
     public void AddScore(int amount)
     {
         score += amount;
-       
+        PlayerPrefs.SetInt("PlayerScore", score); // Save the score
+
     }
 
     private IEnumerator HandleDeath() {

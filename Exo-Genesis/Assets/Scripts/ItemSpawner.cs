@@ -126,7 +126,7 @@ public class ItemSpawner : MonoBehaviour
         return count;
     }
 
-    IEnumerator RespawnWhenDestroyed(GameObject destroyedItem)
+    public IEnumerator RespawnWhenDestroyed(GameObject destroyedItem)
     {
         yield return new WaitForSeconds(3f);
 

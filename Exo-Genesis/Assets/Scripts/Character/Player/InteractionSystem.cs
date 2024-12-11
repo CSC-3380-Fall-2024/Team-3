@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
 
 public class InteractionSystem : MonoBehaviour
@@ -45,6 +46,7 @@ public class InteractionSystem : MonoBehaviour
                     // If it's an interactable object, call its Interact method
                     if (interactableObject != null)
                     {
+                        GameObject.Find("ItemSpawner").GetComponent<ItemSpawner>().StartCoroutine(GameObject.Find("ItemSpawner").GetComponent<ItemSpawner>().RespawnWhenDestroyed(interactableObject.gameObject));  //respawn item after one is destroyed
                         interactableObject.Interact();  // Call the Interact method
                     }
                 }
