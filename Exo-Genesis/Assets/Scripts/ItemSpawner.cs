@@ -83,8 +83,8 @@ public class ItemSpawner : MonoBehaviour
         {
             int randomIndex = Random.Range(0, spawnableEnemies.Count);
             GameObject enemyToSpawn = spawnableEnemies[randomIndex];
-            Instantiate(enemyToSpawn, spawnPosition, Quaternion.identity);
             enemyToSpawn.GetComponent<EnemyController>().target = GameObject.Find("Player1").transform;
+            Instantiate(enemyToSpawn, spawnPosition, Quaternion.identity);
         }
     }
 

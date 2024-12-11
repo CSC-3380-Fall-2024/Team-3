@@ -52,7 +52,10 @@ public class Enemy : Character
         // Add score to the player
         player.GetComponent<Player>().AddScore(scoreValue);
 
+
         // Destroy the enemy GameObject
+
+        GameObject.Find("ItemSpawner").GetComponent<ItemSpawner>().StartCoroutine(GameObject.Find("ItemSpawner").GetComponent<ItemSpawner>().RespawnWhenDestroyed(gameObject));  //respawn item after one is destroyed
         Destroy(gameObject);
     }
 }
