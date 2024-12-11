@@ -22,20 +22,21 @@ public class InventoryUI : MonoBehaviour
     public void ToggleInventory()
     {
         Debug.Log("hfsdkoljhgd");
-        if (!inventoryUI.activeSelf)
+        inventoryUI.SetActive(!inventoryUI.activeSelf);
+        if (inventoryUI.activeSelf)
         {
-            inventoryUI.SetActive(!inventoryUI.activeSelf);
-            inventoryIcon.sprite = openInventoryIcon;
             Debug.Log("open");
-            UpdateUI();
+            inventoryIcon.sprite = openInventoryIcon;
         }
         else
         {
-            inventoryUI.SetActive(!inventoryUI.activeSelf);
             inventoryIcon.sprite = closedInventoryIcon;
             Debug.Log("close");
-            UpdateUI();
         }
+        UpdateUI();
+
+        
+
     }
     // Update the inventory UI by:
     //		- Adding items

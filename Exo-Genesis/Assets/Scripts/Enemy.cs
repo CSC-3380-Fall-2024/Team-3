@@ -32,6 +32,7 @@ public class Enemy : Character
     {
         Debug.Log("Enemy Died!");
         player.GetComponent<Player>().AddScore(scoreValue);
+        GameObject.Find("ItemSpawner").GetComponent<ItemSpawner>().StartCoroutine(GameObject.Find("ItemSpawner").GetComponent<ItemSpawner>().RespawnWhenDestroyed(gameObject));  //respawn item after one is destroyed
         Destroy(gameObject);
     }
 }
